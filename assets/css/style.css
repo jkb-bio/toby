@@ -13,8 +13,7 @@ p,
 
 h1 {
   color: white;
-  text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white;
-  font-family: 'Your Font Name', sans-serif;
+  text-shadow: 0 0 8px white;
 }
 
 .bg-image {
