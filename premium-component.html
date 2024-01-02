@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .premium-img {
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .speech-bubble {
+            position: absolute;
+            background-color: black;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            padding: 5px;
+            border-radius: 5px;
+            top: 50px; /* Adjust the value to position the speech bubble lower */
+            left: 10px;
+            display: none;
+        }
+
+        .premium-img:hover .speech-bubble {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="premium-img">
+        <img src="premium.png" alt="Premium" width="50" height="auto">
+        <div class="speech-bubble">premium</div>
+    </div>
+</body>
+</html>
